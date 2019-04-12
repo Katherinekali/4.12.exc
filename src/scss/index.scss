@@ -32,11 +32,16 @@ body {
     .menu {
         width: 100%;
         height: pxTorem(45px);
+        margin-bottom: pxTorem(10px);
         display: flex;
         li {
             flex: 1;
             text-align: center;
             line-height: pxTorem(45px);
+            &.active {
+                background: #f99;
+                color: #fff;
+            }
         }
     }
     .container {
